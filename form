@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>form</title>
+
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr>
+            <h2>student data</h2>
+            </tr>
+            <tr>
+                <td>
+            <label for="fname">name:</label>
+                </td>
+                <td>
+            <input type="text" id="name"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+            <lable for="e-mail">e-mail:</lable>
+                </td>
+                <td>
+            <input type="email" id="e-mail" name="e-mail"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+            <lable for="parent no">parent no:</lable>
+                </td>
+                <td>
+            <input type="text" ><br><br>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+        
+            <lable for="birthday">date of birth</lable>
+            </td>
+            <td>
+            <input type="date" id="birthday">
+            </td>
+            </tr>
+            <tr>
+                <td>
+            <p>gender</p>
+            
+            <label for="male">male</label>
+            
+            <input type="radio"name=gendar id="male">
+            <lable for="female"name=gendar>female</lable>
+            <input type="radio"name=gendar
+             id="female"><br><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+            <input type="checkbox" id="dancing">
+            <label for="dancing">dancing</label>
+            <input type="checkbox" id="cricket">
+            <label for="cricket">cricket</label>
+            <input type="checkbox" id="singing">
+            <label for="singing">singing</label><br><br>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+            <label for="city">city</label>
+            <select id="city" name="city">
+                <option value="ahmedabad">ahmedabad</option>
+                <option value="rajkot">rajkot</option> 
+                <option value="valsad">valsad</option>
+                <option value="anand">anand</option>
+    
+            </td>
+            </tr>
+            
+            </select><br><br>
+            <tr>
+                <td>
+            <a href="https://www.youtube.com">
+           <input type="submit" value="submit">
+           </a>
+           </td>
+           </tr>
+           </table>
+        </form>
+    </body>
+</html>
