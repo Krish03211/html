@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <style>
+    button{
+        background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+    
+      <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-sm-4" style="background-color: aqua; height: 650px;"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt4Qv4f84Q4EYCCbq4PcfCRSPDhVS-kFAX-w&usqp=CAU" alt="" width="100%"> <br><br>
+            <h1>Leon France</h1>
+            <h1>(he/him)</h1>
+            <h6>model and actor</h6>
+            </div>
+            <div class="col-sm-8" style="background-color:lightblue;"> <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> About me</h1>
+            <hr style="height: 30px;">
+            <h4> i am a professional model and actor based in france  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab eaque ea commodi sed beatae, ipsum quam velit fugit accusamus in molestiae ullam quisquam eum atque necessitatibus? Vel dolore id optio omnis ad doloremque eum, aperiam veniam ab ratione quaerat cupiditate similique delectus praesentium molestias rem quidem. Aut dolor maxime explicabo!</h4>
+            <br>
+            <button> resume</button>  <button>protfolio</button>
+            </div>
+        </div>
+      </div>
+    
+</body>
+</html>
